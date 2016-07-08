@@ -1,0 +1,12 @@
+<table>
+  <tr>
+    <li><%@landmarks.each do |land|%></li>
+      <th>Name</th>
+      <th>Year Completed</th>
+  </tr>
+  <tr>
+    <td><%= land.name %></td>
+    <td><%= land.year_completed %></td>
+  </tr>
+    <%end%>
+<table>
